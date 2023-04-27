@@ -12,7 +12,6 @@ puts
 
 def get_new_salary(salary, increase)
     actual_percentage = increase/100
-    puts actual_percentage
     increase_salary = salary * actual_percentage
     new_salary = salary + increase_salary 
     return new_salary
